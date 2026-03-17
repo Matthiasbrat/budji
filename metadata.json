@@ -1,0 +1,5 @@
+{
+  "name": "BudgetPerso",
+  "description": "Application de gestion de budget personnel mobile-first avec état global et calculs en temps réel.",
+  "requestFramePermissions": []
+}

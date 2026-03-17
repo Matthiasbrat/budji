@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&display=swap');
+
+@theme {
+  --font-sans: 'DM Sans', sans-serif;
+}
+
+:root {
+  --color-revenus: #10B981;
+  --color-depenses: #EF4444;
+  --color-enveloppes: #8B5CF6;
+  --color-accent: #3B82F6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ebf4f5;
+  background-image:
+    radial-gradient(ellipse at 0% 0%,   #D3EEF4 0%, transparent 55%),
+    radial-gradient(ellipse at 100% 0%,  #D8EEED 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 100%, #DDEEE5 0%, transparent 55%),
+    radial-gradient(ellipse at 0% 100%,  #E2EEDE 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%,  #E7EED7 0%, transparent 70%);
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #9CA3AF; }
