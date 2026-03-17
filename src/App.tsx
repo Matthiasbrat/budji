@@ -5,7 +5,7 @@ import { ToastContainer } from './components/Toast';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/budji/">
       <ToastContainer />
       <Routes>
         <Route path="/" element={<HomePage />} />
